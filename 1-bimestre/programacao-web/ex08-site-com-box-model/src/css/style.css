@@ -1,0 +1,9 @@
+div {
+    background-color: black;
+    border: 3px solid white;
+    padding: 20px;
+    margin: 10px;
+}
+p {
+    color:rgb(255, 255, 255)
+}
