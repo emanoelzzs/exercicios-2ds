@@ -89,3 +89,5 @@ Problema:
 > 
 
 Como você criaria um MVP para resolver esse problema? Escreva abaixo.
+
+kanbam para os alunos observarem suas atividades
