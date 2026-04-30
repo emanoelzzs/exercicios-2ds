@@ -101,3 +101,8 @@ Perguntas:
 4. Como evitar novamente?
 
 Crie sua resposta abaixo:
+
+1. A não atribuiçao de responsabilidades
+2. A falta de organizaçao
+3. Uma reunião de alinhamento
+4. Mais organizaçao e responsabilidade
