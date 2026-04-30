@@ -113,3 +113,7 @@ Responda:
 3. O que precisa desenvolver?
 
 Crie sua resposta abaixo:
+
+1. Engenharia
+2. Até que sou bom em exatas, aprendo muito rápido as coisas, sou bom com interpretaçao
+3. conhecimento na área tecnologica
