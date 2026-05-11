@@ -1,28 +1,40 @@
 .profile-card{
     display : flex;
     flex-direction: row;
-    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+    background-color: aliceblue;
+    height: 500px;
+    align-items: center;
 }
 
 .card{
-    background-color: rgb(200, 255, 237);
+    height: 350px;
+    width: 249px;
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: 0.4s;
 }
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
     animation: ease;
+    transition: 0.4s;
+    filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.3));
 }
 img {
+    border: 3px solid rgb(20, 29, 112);
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
 .nome {
-    color: rgb(26, 9, 23);
+    color: rgb(134, 53, 119);
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
     text-align: center;
