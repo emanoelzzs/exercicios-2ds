@@ -8,7 +8,7 @@ export default function App() {
         
         <div className="profile-card">
         < Profile
-        nome="Ana Heloisa"
+        nome="Mariana"
         idade={18}
         profissao="Influencer"
         imagem="https://diariodecuiaba.nyc3.digitaloceanspaces.com/storage/webdisco/2025/10/08/800x600/f54ca1ccb0d5acf19f3a6d3c5763e5cd-diariodecuiaba-com-br.jpg"

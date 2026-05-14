@@ -1,4 +1,4 @@
-import "../styles/profile.css"
+import "../styles/ProfileCSS.css"
 
 function Profile({nome, idade, profissao, imagem, descricao}) {
         return(
