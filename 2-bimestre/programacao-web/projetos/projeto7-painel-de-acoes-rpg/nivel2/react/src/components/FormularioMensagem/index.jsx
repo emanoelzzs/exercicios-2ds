@@ -1,6 +1,6 @@
 export default function FormularioMensagem(){
-        const nome = document.getElementById("nome")
-        const mensagem = document.getElementById("mensagem")
+        const nome = document.getElementById("nome").value
+        const mensagem = document.getElementById("mensagem").value
         
     function enviar(event){
         event.preventDefault()
