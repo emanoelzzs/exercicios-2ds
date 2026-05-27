@@ -26,3 +26,6 @@ Responda:
 3. Como essa ideia poderia ser testada rapidamente?
 
 Crie sua resposta abaixo:
+1. falta de organização na saída dos monitores
+2. todos os monitores que forem sair no dia descer e fazer uma fila do lado das mesas de ping-pong
+3. em qualquer dia pode ser testado
