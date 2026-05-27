@@ -24,3 +24,6 @@ Responda:
 3. Por que diferentes opiniões podem melhorar uma solução?
 
 Crie sua resposta abaixo:
+1. dando atribuições e trabalhos a cada um
+2. falta de comunicação e engajamento
+3. porque pode-se tirar o melhor de cada uma e juntar tudo
