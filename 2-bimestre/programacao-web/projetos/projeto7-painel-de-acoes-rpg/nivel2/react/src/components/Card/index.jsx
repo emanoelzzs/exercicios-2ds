@@ -1,4 +1,5 @@
 import Botao from "../Botao"
+import "./style.css"
 
 export default function Card({ children, classe, nivel, vida, experiencia, img }){
     return(
@@ -11,8 +12,11 @@ export default function Card({ children, classe, nivel, vida, experiencia, img }
             <p>Nível: {nivel} </p>
             <p>Vida: {vida}</p>
             <p>Experiência: {experiencia}</p>
+            <div className="botoes">
+             <Botao className="bnt"/>
+             </div>
             </div>
-            <Botao className="bnt"/>
+           
         </div>
         </>
     )
