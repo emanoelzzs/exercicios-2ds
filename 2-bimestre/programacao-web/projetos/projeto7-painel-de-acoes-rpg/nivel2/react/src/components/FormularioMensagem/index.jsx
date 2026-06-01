@@ -1,8 +1,7 @@
-export default function FormularioMensagem(){
-        const nome = document.getElementById("nome")
-        const mensagem = document.getElementById("mensagem")
-        
+export default function FormularioMensagem(){ 
     function enviar(event){
+        const nome = document.getElementById("nome").value
+        const mensagem = document.getElementById("mensagem").value
         event.preventDefault()
         alert(`${nome} sua mensagem:"${mensagem}" foi enviada`)
     }
@@ -14,7 +13,7 @@ export default function FormularioMensagem(){
         <form onSubmit={enviar}>
             <input type="text" placeholder="Digite seu nome" id="nome"/>
             <input type="text" placeholder="Digite sua mensagem..." id="mensagem"/>
-            <input type="submit"/>
+            <button type="submit">Envia mensagem</button>
         </form>
         </>
     )
