@@ -1,6 +1,18 @@
-.card-perfil {
-    border: 2px solid black;
-    border-radius: 20px;
+.card {
     display: flex;
+    justify-content: center;
+}
+.card-perfil {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 500px;
+}
+.perfil {
+    display: flex;
+    flex-direction: row;
     align-items: center;
 }
