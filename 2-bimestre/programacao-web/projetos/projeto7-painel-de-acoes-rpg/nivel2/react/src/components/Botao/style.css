@@ -1,0 +1,58 @@
+.bnts {
+    padding: 1px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.atacar {
+    background-color: rgb(209, 53, 53);
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.atacar:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.defender {
+    background-color: rgb(29, 29, 170);
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.defender:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.fugir {
+    background-color: rgb(53, 130, 53);
+    width: 170px;
+    height: 50px;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.fugir:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}

@@ -1,18 +1,36 @@
 .card {
+    padding: 1px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 .card-perfil {
+    background-color: white;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
+    border: 0.3px solid rgb(173, 173, 173);
     border-radius: 20px;
-    width: 500px;
+    width: 600px;
+    height: 290px;
 }
 .perfil {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 30px;
+    margin-right: 150px;
+}
+.botoes {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid rgb(173, 173, 173);
+    width: 100%;
+}
+img {
+    width: 170px;
+    height: 170px;
+    border: 0.5px solid rgb(173, 173, 173);
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
 }

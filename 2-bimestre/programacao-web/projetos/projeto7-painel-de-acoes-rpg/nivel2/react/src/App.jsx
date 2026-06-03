@@ -1,10 +1,11 @@
 import Card from "./components/Card";
 import FormularioMensagem from "./components/FormularioMensagem";
-import img from "./assets/vite.svg"
+import img from "./assets/icon.png"
+import "./App.css"
 export default function App(){
     return(
         <>
-        <header>
+        <header className="legends">
             <h1>Legends Arena</h1>
         </header>
         <Card 
