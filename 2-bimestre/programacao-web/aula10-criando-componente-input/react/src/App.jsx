@@ -1,6 +1,6 @@
 import Input from "./components/Input"
 
-import default function App() {
+export default function App() {
   return(
     <>
     <Input
