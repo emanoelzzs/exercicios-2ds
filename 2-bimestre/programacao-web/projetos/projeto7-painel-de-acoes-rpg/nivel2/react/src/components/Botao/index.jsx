@@ -1,18 +1,10 @@
-export default function Botao() {
-    function atacar(){
-        alert("Atacando inimigo!")
-    }
-    function defender(){
-        alert("Defendendo posição!")
-    }
-    function fugir(){
-        alert("Fugindo da batalha!")
-    }
+import "./style.css"
+export default function Botao({onClick, classe, texto}) {
     return(
         <>
-        <button onClick={atacar} className="atacar">Atacar</button>
-        <button onClick={defender} className="defender">Defender</button>
-        <button onClick={fugir} className="fugir">Fugir</button>
+        <div className="bnts">
+        <button onClick={onClick} className={classe}>{texto}</button>
+        </div>
         </>
     )
 }

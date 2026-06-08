@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+=======
+body{
+  background-color: rgb(233, 233, 233);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.legends {
+  background-color: rgb(16, 16, 81);
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  width: 100%;
+}
+
+.legends h1 {
+   margin: 0;
+   margin-left: 10px;
+}
+>>>>>>> e740abb5b08f0b13dfd868f86f3ea8c2bc0e46cd
