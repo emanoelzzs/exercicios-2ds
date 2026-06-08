@@ -3,6 +3,7 @@ import FormularioMensagem from "./components/FormularioMensagem";
 import icon from "./assets/icon.png"
 export default function App(){
     return(
+        
         <>
         <header>
             <h1>Legends Arena</h1>
