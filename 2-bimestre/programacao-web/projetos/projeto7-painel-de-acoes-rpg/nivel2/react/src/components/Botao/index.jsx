@@ -1,4 +1,4 @@
-export default function Botao({...rest}) {
+export default function Botao() {
     function atacar(){
         alert("Atacando inimigo!")
     }
@@ -10,9 +10,9 @@ export default function Botao({...rest}) {
     }
     return(
         <>
-        <button onClick={atacar} {...rest}>Atacar</button>
-        <button onClick={defender} {...rest}>Defender</button>
-        <button onClick={fugir} {...rest}>Fugir</button>
+        <button onClick={atacar} className="atacar">Atacar</button>
+        <button onClick={defender} className="defender">Defender</button>
+        <button onClick={fugir} className="fugir">Fugir</button>
         </>
     )
 }

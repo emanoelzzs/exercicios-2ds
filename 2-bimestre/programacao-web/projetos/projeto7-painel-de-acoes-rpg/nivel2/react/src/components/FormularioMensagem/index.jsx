@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 export default function FormularioMensagem(){ 
+=======
+export default function FormularioMensagem(){
+        const nome = document.getElementById("nome").value
+        const mensagem = document.getElementById("mensagem").value
+        
+>>>>>>> 33b3df2ef67cc8a5397b31bf74f7519f91d674e4
     function enviar(event){
         const nome = document.getElementById("nome").value
         const mensagem = document.getElementById("mensagem").value
