@@ -1,6 +1,5 @@
 import Botao from "../Botao"
 import "./style.css"
-
 export default function Card({ children, classe, nivel, vida, experiencia, img }){
      function atacar(){
         alert("Atacando inimigo!")

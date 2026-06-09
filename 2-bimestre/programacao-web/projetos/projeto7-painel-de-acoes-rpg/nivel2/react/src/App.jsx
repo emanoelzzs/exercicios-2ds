@@ -4,7 +4,7 @@ import icon from "./assets/icon.png"
 export default function App(){
     return(
         
-        <>
+        <> 
         <header className="legends">
             <h1>Legends Arena</h1>
         </header>
