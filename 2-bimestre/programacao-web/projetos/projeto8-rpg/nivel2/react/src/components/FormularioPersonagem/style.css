@@ -1,0 +1,19 @@
+.cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    background-color: #2df50a;
+    color: white;
+    margin: 0px 650px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.cadastro label{
+    font-size: 18px;
+}
+
+.cadastro input{
+    margin-top: 10px;
+}
