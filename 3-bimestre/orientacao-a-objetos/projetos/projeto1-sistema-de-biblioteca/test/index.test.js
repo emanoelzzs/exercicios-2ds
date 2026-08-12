@@ -1,4 +1,4 @@
-const Livro = require("../index")
+const Livro = require("../index.js")
 
 describe("Classe Livro", () => {
 
