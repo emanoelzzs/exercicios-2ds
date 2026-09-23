@@ -221,3 +221,14 @@ Crie:
 1. Uma tarefa que será dada ao usuário.
 2. Duas coisas que a equipe deverá observar.
 3. Uma pergunta para fazer depois do teste.
+
+
+Tarefa para o usuário:
+- “Imagine que você precisa adicionar uma nova tarefa de Matemática. Mostre como faria isso usando o protótipo.”
+
+Duas coisas para observar:
+- Se o usuário consegue encontrar facilmente onde adicionar uma nova tarefa.
+- Se o usuário fica confuso ou precisa de ajuda durante o processo.
+
+Pergunta depois do teste:
+- “O que você achou mais difícil ou confuso ao usar o protótipo?”
