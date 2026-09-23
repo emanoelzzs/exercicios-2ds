@@ -242,3 +242,22 @@ A equipe consegue realizar apenas **três tarefas** nesta Sprint.
 1. Quais três tarefas você escolheria?
 2. Por que elas devem ter prioridade?
 3. Qual seria um possível objetivo para essa Sprint?
+
+Quais tarefas você escolheria?
+
+Eu escolheria:
+
+- A: corrigir o erro que impede os usuários de fazer login;
+- C: criar a recuperação de senha;
+- E: corrigir o erro que causa perda de dados.
+
+ Por que elas devem ter prioridade?
+
+- As tarefas A e E devem ter prioridade porque envolvem problemas críticos: uma impede o acesso dos usuários e a outra pode causar perda de dados.
+- A tarefa C também é importante porque melhora o acesso dos usuários ao sistema por meio da recuperação de senha.
+- A aula destaca que a equipe deve priorizar tarefas que geram mais valor ou reduzem maiores riscos.
+
+ Qual seria um possível objetivo para essa Sprint?
+
+- Objetivo: melhorar o acesso e a segurança do sistema, corrigindo problemas críticos de login e perda de dados e implementando a recuperação de senha.
+- A aula reforça que o objetivo da Sprint deve representar o resultado que a equipe pretende alcançar, e não apenas uma quantidade de tarefas.
