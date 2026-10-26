@@ -256,3 +256,5 @@ Ao final, cada equipe deverá entregar:
 ⚠️ O erro que mais custa nota: uma decisão que não aponta nenhum número do painel. Se a justificativa for "achamos melhor", o projeto não cumpriu o objetivo — mesmo com o painel bonito.
 
 Boas métricas! 📈
+
+O projeto 3 está no repositorio [Clean Financy](https://github.com/emanoelzzs/clean-financy-mmp)
