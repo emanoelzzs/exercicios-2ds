@@ -257,4 +257,4 @@ Ao final, cada equipe deverá entregar:
 
 Boas métricas! 📈
 
-O projeto 3 está no repositorio [Clean Financy](https://github.com/emanoelzzs/clean-financy-mmp)
+O projeto 3 está no repositorio [Clean Financy](https://github.com/emanoelzzs/clean-financy)
