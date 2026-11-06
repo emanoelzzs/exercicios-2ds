@@ -6,10 +6,10 @@ function validarTroca(req, res, next){
         return res.status(400).json({erro: "O campo exemplar e obrigatorio"})
     }
     if(Number.isNaN(Number(req.body.credito))){
-
+        return res.status(400).json({erro: "O campo credito deve ser um numero"})
     }
-    if(req.body.credito <= 0){
-        
+    if(Number(req.body.credito) <= 0){
+        return res.status(400).json({erro: "O campo credito deve ser maior que zero"})
     }
     next()
 }

@@ -1,6 +1,6 @@
 const express = require("express")
 const routes = express.Router()
-
+const validarTroca = require("../middlewares/validarTroca")
 const trocas = [
     { id: 1, cliente: "Ana", exemplar: "1984", credito: 15, situacao: "concluida" },
     { id: 2, cliente: "Bruno", exemplar: "O Hobbit", credito: 12, situacao: "aprovada" },
@@ -30,6 +30,31 @@ routes.get("/:id", (req, res, next) => {
       return next(erro)
     }
     res.status(200).json(troca)
+})
+
+routes.get("/resumo", (req, res) => {
+    const total = trocas.length
+    const creditoTotal = trocas.reduce((soma, troca) => soma + troca.credito, 0)
+
+    return res.status(200).json({
+        total,
+        creditoTotal
+    })
+})
+
+routes.post("/", validarTroca, (req, res) => {
+    const id = trocas.map(i => i.id)
+    const maiorID = Math.max(...id)
+    let novoID = maiorID + 1
+    const novaTroca = {
+        id: novoID,
+        cliente: req.body.cliente,
+        exemplar: req.body.exemplar,
+        credito: Number(req.body.credito),
+        situacao: "avaliando"
+    }
+    trocas.push(novaTroca)
+    return res.status(201).json({mensagem: "Registro de troca criado"})
 })
 
 module.exports = routes
