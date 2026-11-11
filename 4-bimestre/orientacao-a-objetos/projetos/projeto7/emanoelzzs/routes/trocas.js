@@ -20,6 +20,16 @@ routes.get("/", (req, res) => {
     return res.status(200).json(resultado)
 })
 
+routes.get("/resumo", (req, res) => {
+    const total = trocas.length
+    const creditoTotal = trocas.reduce((soma, troca) => soma + troca.credito, 0)
+
+    return res.status(200).json({
+        total,
+        creditoTotal
+    })
+})
+
 routes.get("/:id", (req, res, next) => {
     const id = Number(req.params.id)
     const troca = trocas.find(p => p.id === id)
@@ -30,16 +40,6 @@ routes.get("/:id", (req, res, next) => {
       return next(erro)
     }
     res.status(200).json(troca)
-})
-
-routes.get("/resumo", (req, res) => {
-    const total = trocas.length
-    const creditoTotal = trocas.reduce((soma, troca) => soma + troca.credito, 0)
-
-    return res.status(200).json({
-        total,
-        creditoTotal
-    })
 })
 
 routes.post("/", validarTroca, (req, res) => {
@@ -55,6 +55,24 @@ routes.post("/", validarTroca, (req, res) => {
     }
     trocas.push(novaTroca)
     return res.status(201).json({mensagem: "Registro de troca criado"})
+})
+  
+routes.put("/:id", (req, res, next) => {
+    const id = Number(req.params.id)
+    const troca = trocas.find(p => p.id === id)
+
+    if(!troca){
+        const erro = new Error("Troca nao encontrada")
+        erro.status = 404
+        return next(erro)
+    }
+    troca.cliente = req.body.cliente
+    troca.exemplar = req.body.exemplar
+    troca.credito = Number(req.body.credito)
+    troca.situacao = req.body.situacao
+
+
+    res.status(200).json(troca)
 })
 
 module.exports = routes
